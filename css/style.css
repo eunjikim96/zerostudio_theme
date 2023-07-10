@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: #191919;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #191919;
+    background-color: #DDF0F7;
+}
+
+*[class] {
+    box-sizing: border-box;
+}
+
+div img{
+    margin:0 auto;
+    display: block;
+  }
+  #section img{
+    margin-bottom: 10px;
+  }
+  .fixed{
+    position: fixed;
+    right:100px;
+    bottom:100px;
+  }
+  .fixed:hover{
+    opacity:0.8;
+  }
+  .fixed2{
+    position: fixed;
+    right:100px;
+    bottom:40px;
+  }
+  .fixed2:hover{
+    opacity:0.8;
+  }
